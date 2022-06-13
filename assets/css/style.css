@@ -14,3 +14,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+/*header*/
+header {
+    height: 150px; 
+    
+  }
+
+/*logo styling*/
+
+#logo {
+    width: 50%;
+    height: 150px;
+    padding-top: 2rem;
+    float: right;
+    margin-right: 100px;
+  }
+
+  img {
+    height: 100px;
+}

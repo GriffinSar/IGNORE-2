@@ -64,6 +64,7 @@ header {
 /* style dropdown content */
 .drop-down-list {
   display: none;
+  cursor: pointer;
   position: absolute;
   background-color: #f6cf23;
   min-width: 80px;

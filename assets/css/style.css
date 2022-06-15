@@ -87,3 +87,21 @@ header {
 }
 
 .dropdown:hover .buttondown {background-color: #ff9900;}
+
+/*headings*/
+h1,
+h2,
+h3,
+h4 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 5.4rem;
+  color: #f6cf23;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+

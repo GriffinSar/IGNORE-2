@@ -38,6 +38,8 @@ header {
     height: 100px;
 }
 
+/*nav bar*/
+
 /*DropDown Button*/
 .buttondown {
   background-color: #ff9900;
@@ -56,8 +58,7 @@ header {
   padding-left: 2rem; 
   border-radius: 4px;
   width: 40%;
-  float: left;
-  
+  float: left; 
 }
 
 /* style dropdown content */
@@ -78,15 +79,18 @@ header {
   display: block;
 }
 
-
-.drop-down-list a:hover {background-color: #ff9900;}
+.drop-down-list a:hover {
+  background-color: #ff9900;
+}
 
 
 .dropdown:hover .drop-down-list {  
   display: flex;
 }
 
-.dropdown:hover .buttondown {background-color: #ff9900;}
+.dropdown:hover .buttondown {
+  background-color: #ff9900;
+}
 
 /*headings*/
 h1,
@@ -102,6 +106,20 @@ h1 {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
+}
+
+/*engage button*/
+.start {
+  font-size: 2rem;
+  padding: 2rem 2rem;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #f6cf23;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #040404;
+  background-color: #ff9900;
 }
 
 

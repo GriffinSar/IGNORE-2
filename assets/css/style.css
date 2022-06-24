@@ -184,17 +184,98 @@ li i:hover {
 
 /*Style game page*/
 
-.game-container{
-  background-color: pink;
-  display: flex;
+.game-container {
+  margin: auto;
+  width: 50vw;
+  height: 500px;
+  align-items: center;
   justify-content: center;
 }
 
-.level {
-  background-color: #ff9900;
-  color: #040404;
-  display: inline;
-  float:left;
+.level-choice {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
 }
+
+/*level button styles*/
+.lvl-button {
+  background-color: #ff9900;
+  border-radius: 4px;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 100px;
+  height: 50px;
+  
+}
+
+/*progress bar and score*/
+#progress-bar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #cc6666;
+  margin-top: 1.5rem;
+  padding-left: 0;
+}
+
+#progress-bar-full {
+height: 3.4rem;
+background-color: #cc6666;  
+width: 0%;
+}
+
+#pBar {
+ 
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#progress-bar {
+  display: flex;
+}
+
+
+
+
+
+/*
+
+.choice-container {
+  visibility: hidden;
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid #6b6bb2;
+  background-color: #6b6bb2;
+  border-radius: 6px;
+}
+
+.choice-container:hover {
+  cursor:pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(220, 241, 58, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #cc99cc;
+  color: white;
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+  color: black;
+}
+
+
+
+
+
 
 

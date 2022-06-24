@@ -182,4 +182,19 @@ li i:hover {
   color: #f6cf23;
 }
 
+/*Style game page*/
+
+.game-container{
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.level {
+  background-color: #ff9900;
+  color: #040404;
+  display: inline;
+  float:left;
+}
+
 
